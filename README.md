@@ -1,4 +1,23 @@
-# LangChain and LangGraph Tutorial Series
+
+# LangChain, LangGraph, and LangSmith Tutorials with Groq
+
+## What's Inside
+
+- In-depth tutorials covering fundamental to advanced concepts
+- Practical examples demonstrating real-world applications
+- Integration of LangChain, LangGraph, and LangSmith for building sophisticated AI systems
+- Leveraging Groq's high-performance LLM for fast and efficient language processing
+
+## Key Topics
+
+- LangChain basics and advanced features
+- Building complex workflows with LangGraph
+- Optimizing and monitoring your LLMs with LangSmith
+- Best practices for prompt engineering and chain development
+- Integrating external tools and APIs
+- Deploying production-ready AI applications
+
+Whether you're new to these technologies or looking to deepen your expertise, these tutorials offer valuable insights into building state-of-the-art language AI systems using the latest tools and techniques.
 
 ## Tutorial 1: Introduction to LangChain
 - What is LangChain?
