@@ -108,3 +108,13 @@ Whether you're new to these technologies or looking to deepen your expertise, th
 - Integration with other AI and ML libraries
 - Keeping up with advancements in language models
 - Community resources and contribution opportunities
+
+
+### Useful Repositories
+- #### LangChain
+  - https://github.com/langchain-ai/langchain
+  - https://github.com/kyrolabs/awesome-langchain
+- #### LangGraph 
+  - https://github.com/NirDiamant/GenAI_Agents
+  - https://github.com/langchain-ai/langgraph
+  - https://github.com/langchain-ai/langgraph-example/tree/main
