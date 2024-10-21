@@ -1,0 +1,13 @@
+langchain-groq
+langchain
+python-dotenv
+langchain-community
+langchain-ollama
+pypdf
+faiss-cpu
+numexpr 
+duckduckgo-search
+wikipedia
+playwright
+unstructured
+langgraph
