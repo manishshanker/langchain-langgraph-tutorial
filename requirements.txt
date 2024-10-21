@@ -5,6 +5,7 @@ langchain-community
 langchain-ollama
 pypdf
 faiss-cpu
+chromadb
 numexpr 
 duckduckgo-search
 wikipedia
@@ -12,3 +13,9 @@ playwright
 unstructured
 langgraph
 jupyter
+asyncio
+langchain_experimental
+pandas
+matplotlib
+tensorflow
+graphviz
