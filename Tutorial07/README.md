@@ -12,7 +12,8 @@ This tutorial introduces LangGraph, a powerful library for building complex, sta
 
 ## Installation
 ```bash
-pip install langchain langgraph groq
+   cd langchain-langgraph-tutorial/Tutorial07
+   pip install -r ../requirements.txt 
 ```
 
 ## Contents

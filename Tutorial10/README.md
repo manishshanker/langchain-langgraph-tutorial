@@ -12,7 +12,7 @@ This tutorial applies the concepts learned in previous sessions to build practic
 
 ## Installation
 ```bash
-pip install langchain langgraph groq
+   cd langchain-langgraph-tutorial/Tutorial10
 ```
 
 ## Contents

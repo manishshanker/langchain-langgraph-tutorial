@@ -12,7 +12,7 @@ This tutorial builds upon the introduction to LangGraph, focusing on creating mo
 
 ## Installation
 ```bash
-pip install langchain langgraph groq
+   cd langchain-langgraph-tutorial/Tutorial08
 ```
 
 ## Contents

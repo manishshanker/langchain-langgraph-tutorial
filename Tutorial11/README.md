@@ -13,7 +13,7 @@ This tutorial focuses on working with structured data in LangChain and LangGraph
 
 ## Installation
 ```bash
-pip install langchain langgraph groq pydantic
+   cd langchain-langgraph-tutorial/Tutorial11
 ```
 
 ## Contents

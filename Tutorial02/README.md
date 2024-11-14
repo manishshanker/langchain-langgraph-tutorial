@@ -20,25 +20,14 @@ Welcome to the second tutorial in our LangChain and LangGraph series! In this tu
 
 1. Navigate to the tutorial directory:
    ```
-   cd langchain-tutorials/tutorial-2
+   cd langchain-langgraph-tutorial/Tutorial02
    ```
-
-2. Ensure you have the required packages installed:
-   ```
-   pip install langchain groq jupyter
-   ```
-
-3. Set up your Groq API key:
-   ```
-   export GROQ_API_KEY='your-api-key-here'
-   ```
-
-4. Open the Jupyter Notebook:
+2. Open the Jupyter Notebook:
    ```
    jupyter notebook Tutorial_2_Working_with_Language_Models.ipynb
    ```
 
-5. Follow along with the notebook to learn about working with language models in LangChain!
+3. Follow along with the notebook to learn about working with language models in LangChain!
 
 ## What's Included
 

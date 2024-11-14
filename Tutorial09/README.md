@@ -12,7 +12,7 @@ This tutorial demonstrates how to effectively combine LangChain components with 
 
 ## Installation
 ```bash
-pip install langchain langgraph groq
+   cd langchain-langgraph-tutorial/Tutorial09
 ```
 
 ## Contents

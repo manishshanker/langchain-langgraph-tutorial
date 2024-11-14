@@ -13,7 +13,7 @@ This tutorial covers best practices and advanced topics for developing and deplo
 
 ## Installation
 ```bash
-pip install langchain langgraph groq fastapi uvicorn prometheus_client
+   cd langchain-langgraph-tutorial/Tutorial13
 ```
 
 ## Contents

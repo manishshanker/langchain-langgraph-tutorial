@@ -20,25 +20,14 @@ Welcome to the fifth tutorial in our LangChain and LangGraph series! In this tut
 
 1. Navigate to the tutorial directory:
    ```
-   cd langchain-tutorials/tutorial-5
+   cd langchain-langgraph-tutorial/Tutorial05
    ```
-
-2. Install the required packages:
-   ```
-   pip install langchain groq jupyter python-dotenv pydantic
-   ```
-
-3. Set up your Groq API key:
-   ```
-   export GROQ_API_KEY='your-api-key-here'
-   ```
-
-4. Open the Jupyter Notebook:
+2. Open the Jupyter Notebook:
    ```
    jupyter notebook Tutorial_5_Advanced_Agent_Techniques.ipynb
    ```
 
-5. Follow along with the notebook to learn about advanced Agent techniques in LangChain!
+3. Follow along with the notebook to learn about advanced Agent techniques in LangChain!
 
 ## What's Included
 

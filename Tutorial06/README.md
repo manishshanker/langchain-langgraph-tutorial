@@ -23,25 +23,14 @@ Welcome to the sixth tutorial in our LangChain and LangGraph series! In this tut
 
 1. Navigate to the tutorial directory:
    ```
-   cd langchain-tutorials/tutorial-6
+   cd langchain-langgraph-tutorial/Tutorial06
    ```
-
-2. Install the required packages:
-   ```
-   pip install langchain groq jupyter python-dotenv faiss-cpu
-   ```
-
-3. Set up your Groq API key:
-   ```
-   export GROQ_API_KEY='your-api-key-here'
-   ```
-
-4. Open the Jupyter Notebook:
+2. Open the Jupyter Notebook:
    ```
    jupyter notebook Tutorial_6_Memory_Systems_in_LangChain.ipynb
    ```
 
-5. Follow along with the notebook to learn about memory systems in LangChain!
+3. Follow along with the notebook to learn about memory systems in LangChain!
 
 ## What's Included
 

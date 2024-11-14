@@ -13,7 +13,7 @@ This tutorial delves into advanced LangChain techniques, exploring custom chain 
 
 ## Installation
 ```bash
-pip install langchain langgraph groq faiss-cpu sentence-transformers
+   cd langchain-langgraph-tutorial/Tutorial12
 ```
 
 ## Contents

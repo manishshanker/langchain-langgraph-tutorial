@@ -13,7 +13,7 @@ This tutorial explores the latest features in LangChain and LangGraph, discusses
 
 ## Installation
 ```bash
-pip install langchain langgraph groq transformers tensorflow
+   cd langchain-langgraph-tutorial/Tutorial14
 ```
 
 ## Contents

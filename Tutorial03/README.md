@@ -19,25 +19,15 @@ Welcome to the third tutorial in our LangChain and LangGraph series! In this tut
 
 1. Navigate to the tutorial directory:
    ```
-   cd langchain-tutorials/tutorial-3
+   cd langchain-langgraph-tutorial/Tutorial03
    ```
 
-2. Install the required packages:
-   ```
-   pip install langchain groq jupyter python-dotenv chromadb nltk
-   ```
-
-3. Set up your Groq API key:
-   ```
-   export GROQ_API_KEY='your-api-key-here'
-   ```
-
-4. Open the Jupyter Notebook:
+2. Open the Jupyter Notebook:
    ```
    jupyter notebook Tutorial_3_Document_Processing.ipynb
    ```
 
-5. Follow along with the notebook to learn about document processing with LangChain!
+3. Follow along with the notebook to learn about document processing with LangChain!
 
 ## What's Included
 

@@ -19,26 +19,32 @@ Welcome to the first tutorial in our LangChain and LangGraph series! In this tut
 
 1. Clone this repository:
    ```
-   git clone https://github.com/your-repo/langchain-tutorials.git
-   cd langchain-tutorials/tutorial-1
+   git clone https://github.com/doomL/langchain-langgraph-tutorial
+   cd langchain-langgraph-tutorial/Tutorial01
    ```
 
-2. Install the required packages:
+2. Create a new virtual environment and activate it:
    ```
-   pip install langchain groq jupyter
+   python3 -m venv env
+   source env/bin/activate
    ```
-
-3. Set up your Groq API key:
+3. Install the required packages:
+   ```
+   pip install -r ../requirements.txt 
+   ```
+4. Set up your Groq API key:
    ```
    export GROQ_API_KEY='your-api-key-here'
+   cp ../.env.example ../.env
+   ```
+   Edit the `.env` file and replace `your-api-key-here` with your actual Groq API key.
+   And Langsmith API key if you want to track you llm calls.
    ```
 
-4. Open the Jupyter Notebook:
+5. Open the Jupyter Notebook:
    ```
    jupyter notebook Tutorial_1_Introduction_to_LangChain.ipynb
-   ```
-
-5. Follow along with the notebook to learn about LangChain and create your first application!
+6. Follow along with the notebook to learn about LangChain and create your first application!
 
 ## Next Steps
 
