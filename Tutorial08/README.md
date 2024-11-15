@@ -1,39 +1,90 @@
 # Tutorial 8: Building Complex Flows with LangGraph
 
-## Overview
-This tutorial builds upon the introduction to LangGraph, focusing on creating more complex and sophisticated workflows. We'll explore multi-step processes, conditional logic, and error handling within LangGraph flows.
+## What you'll learn
+
+1. Multi-step workflow design:
+   - Task planning and decomposition
+   - Sequential task execution
+   - Error handling and recovery
+   - Result summarization
+
+2. State Management:
+   - Defining state structure with TypedDict
+   - Managing transitions between steps
+   - Handling shared context
+   - Error count tracking
+
+3. Complex Workflow Implementation:
+   - Custom node functions
+   - Conditional branching
+   - Error recovery paths
+   - State persistence
 
 ## Prerequisites
-- Completion of Tutorial 7: Introduction to LangGraph
-- Understanding of basic LangChain and LangGraph concepts
+
+- Completion of Tutorials 1-7
 - Python 3.7+
-- LangChain and LangGraph libraries installed
-- Groq API key (for using Groq as the LLM)
-
-## Installation
-```bash
-   cd langchain-langgraph-tutorial/Tutorial08
-```
-
-## Contents
-1. Designing multi-step workflows
-2. Handling state and transitions
-3. Implementing conditional logic in flows
-4. Error handling and fallback strategies
+- Groq API key
 
 ## Getting Started
-1. Clone this repository or download the `tutorial_8_complex_flows_langgraph.ipynb` file.
-2. Open the notebook in Jupyter Lab or Jupyter Notebook.
-3. Ensure you have set your Groq API key as an environment variable:
-   ```bash
-   export GROQ_API_KEY='your_api_key_here'
-   ```
-4. Follow the instructions in the notebook to learn about building complex flows with LangGraph.
 
-## Additional Resources
-- [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction.html)
-- [LangGraph Documentation](https://python.langchain.com/docs/langgraph)
-- [Groq API Documentation](https://www.groq.com/docs/)
+### 1. Ensure Virtual Environment is Activated
+
+#### Linux/macOS:
+```bash
+cd langchain-langgraph-tutorial
+source venv/bin/activate
+cd Tutorial08
+```
+
+#### Windows:
+```cmd
+cd langchain-langgraph-tutorial
+.\venv\Scripts\activate
+cd Tutorial08
+```
+
+### 2. Launch Jupyter Notebook
+```bash
+jupyter notebook Tutorial_8_complex_flows_langgraph.ipynb
+```
+
+## Components
+
+### Core Files
+- `Tutorial_8_complex_flows_langgraph.ipynb`: Main tutorial notebook
+- `utils/`: Helper functions for workflow
+- `examples/`: Sample flows and configurations
+
+### Workflow Features
+
+#### Task Management
+- Task breakdown system
+- Subtask execution engine
+- Progress tracking
+- Task completion validation
+
+#### Error Handling
+- Error detection and counting
+- Automatic retries
+- Fallback strategies
+- Recovery procedures
+
+#### State Control
+- State definition using TypedDict
+- Transition management
+- Context preservation
+- Multi-step coordination
 
 ## Next Steps
-After completing this tutorial, you'll have a deeper understanding of LangGraph's capabilities for building complex workflows. The next tutorial in the series will cover combining LangChain and LangGraph for even more powerful applications.
+
+After completing this tutorial:
+1. Develop custom workflow patterns
+2. Implement domain-specific flows
+3. Design error handling strategies
+4. Create complex agent interactions
+
+## Additional Resources
+
+- [LangGraph Documentation](https://python.langchain.com/docs/langgraph)
+- [Groq API Documentation](https://www.groq.com/docs/)
