@@ -1,44 +1,88 @@
 # Tutorial 6: Memory Systems in LangChain
 
-Welcome to the sixth tutorial in our LangChain and LangGraph series! In this tutorial, we'll dive deep into memory systems in LangChain, exploring how to create agents and chatbots with various types of memory for more coherent and context-aware interactions.
-
 ## What you'll learn
 
-1. Understanding different types of memory in LangChain
-2. Implementing conversation memory for chatbots
-3. Creating a chatbot with long-term memory
-4. Exploring advanced memory techniques:
-   - Summary memory
-   - Episodic memory
-   - Semantic memory
-5. Building a multi-modal memory system
+1. Types of LangChain memory systems:
+   - Buffer Memory
+   - Summary Memory
+   - Conversation Buffer/Summary Memory
+   - Vector Store-Backed Memory
+   - Knowledge Graph Memory
+
+2. Implementing memory systems:
+   - Basic conversation memory
+   - Long-term memory with summaries
+   - Combined memory approaches
+   - Knowledge graph memory for complex relationships
 
 ## Prerequisites
 
 - Completion of Tutorials 1-5
-- Solid understanding of Python and Jupyter Notebooks
-- A Groq API key (sign up at https://console.groq.com)
+- Python and Jupyter Notebooks
+- Groq API key (https://console.groq.com)
 
 ## Getting Started
 
-1. Navigate to the tutorial directory:
-   ```
-   cd langchain-langgraph-tutorial/Tutorial06
-   ```
-2. Open the Jupyter Notebook:
-   ```
-   jupyter notebook Tutorial_6_Memory_Systems_in_LangChain.ipynb
-   ```
+### 1. Ensure Virtual Environment is Activated
 
-3. Follow along with the notebook to learn about memory systems in LangChain!
+#### Linux/macOS:
+```bash
+cd langchain-langgraph-tutorial
+source venv/bin/activate
+cd Tutorial06
+```
 
-## What's Included
+#### Windows:
+```cmd
+cd langchain-langgraph-tutorial
+.\venv\Scripts\activate
+cd Tutorial06
+```
 
-- `Tutorial_6_Memory_Systems_in_LangChain.ipynb`: Jupyter Notebook containing the tutorial content and code examples
-- `README.md`: This file, providing an overview of the tutorial
+### 2. Launch Jupyter Notebook
+```bash
+jupyter notebook Tutorial_6_Memory_Systems_in_LangChain.ipynb
+```
+
+## Components
+
+### Core Files
+- `Tutorial_6_Memory_Systems_in_LangChain.ipynb`: Main tutorial notebook
+- `utils/`: Helper functions for memory implementations
+- `examples/`: Sample conversations and memory patterns
+
+### Key Features
+
+#### Memory Types
+- ConversationBufferMemory
+- ConversationSummaryMemory
+- CombinedMemory
+- ConversationKGMemory
+
+#### Example Applications
+- Chat systems with memory
+- Knowledge graph-based conversations
+- Multi-modal memory implementations
+
+## Troubleshooting
+
+Common Issues:
+1. Memory initialization errors
+2. Token limit management
+3. Context preservation
+4. Knowledge graph queries
 
 ## Next Steps
 
-After completing this tutorial, you'll have a deep understanding of how to implement and use various memory systems in LangChain to create more intelligent and context-aware AI agents and chatbots. In the next tutorial, we'll introduce LangGraph and explore how it can be used alongside LangChain for even more complex workflows.
+After completing this tutorial:
+1. Study memory persistence strategies
+2. Experiment with custom memory implementations
+3. Build advanced memory-aware applications
 
-Happy learning!
+Stay tuned for Tutorial 7: Advanced Agent Patterns
+
+## Additional Resources
+
+- LangChain Memory Documentation
+- Knowledge Graph Implementation Guide
+- Memory System Best Practices
