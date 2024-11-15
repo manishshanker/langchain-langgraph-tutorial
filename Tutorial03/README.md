@@ -17,26 +17,101 @@ Welcome to the third tutorial in our LangChain and LangGraph series! In this tut
 
 ## Getting Started
 
-1. Navigate to the tutorial directory:
-   ```
-   cd langchain-langgraph-tutorial/Tutorial03
-   ```
+### 1. Ensure Virtual Environment is Activated
 
-2. Open the Jupyter Notebook:
-   ```
-   jupyter notebook Tutorial_3_Document_Processing.ipynb
-   ```
+#### For Linux/macOS:
+```bash
+cd langchain-langgraph-tutorial
+source venv/bin/activate
+cd Tutorial03
+```
 
-3. Follow along with the notebook to learn about document processing with LangChain!
+#### For Windows:
+```cmd
+cd langchain-langgraph-tutorial
+.\venv\Scripts\activate
+cd Tutorial03
+```
+### Install Ollama for Embedding Generation
+ From the website https://ollama.com/download - download the Ollama CLI and install it. Then run the following command to pull the minilm model.
+
+### Pull Ollama Models
+```bash 
+ollama pull all-minilm
+```
+
+### 2. Launch Jupyter Notebook
+```bash
+jupyter notebook Tutorial_3_Document_Processing.ipynb
+```
 
 ## What's Included
 
-- `Tutorial_3_Document_Processing.ipynb`: Jupyter Notebook containing the tutorial content and code examples
-- `README.md`: This file, providing an overview of the tutorial
-- `sample_documents/`: Directory containing sample text files for processing
+### Core Components
+- `Tutorial_3_Document_Processing.ipynb`: Main tutorial notebook
+- `sample_documents/`: Example documents for processing
+  - Text files (.txt)
+  - PDF documents (.pdf)
+  - Word documents (.docx)
+  - Markdown files (.md)
+- `utils/`: Helper functions for document processing
+- `README.md`: Documentation file
+
+### Key Topics
+
+#### Document Loading
+- Different document formats support
+- Metadata extraction
+- Error handling strategies
+- Batch processing
+
+#### Text Processing
+- Chunking algorithms
+- Splitting strategies
+- Token management
+- Content preservation
+
+#### Search Implementation
+- Vector store setup
+- Embedding generation
+- Query processing
+- Result ranking
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Document Loading Errors**
+   - File format compatibility
+   - Encoding issues
+   - Memory constraints
+   - Permission problems
+
+2. **Processing Challenges**
+   - Large document handling
+   - Special character management
+   - Language detection
+   - Metadata preservation
 
 ## Next Steps
 
-After completing this tutorial, you'll have a solid understanding of how to process and analyze documents using LangChain. In the next tutorial, we'll explore the concept of Agents in LangChain.
+After completing this tutorial:
+1. Experiment with different document types
+2. Optimize chunking strategies
+3. Build custom document processors
+4. Prepare for Tutorial 4: Agents in LangChain
+
+Stay tuned for Tutorial 4 where we'll explore:
+- Agent architectures
+- Tool integration
+- Planning strategies
+- Multi-agent systems
+
+## Additional Resources
+
+- LangChain Document Loaders Guide
+- Text Splitting Best Practices
+- Vector Store Documentation
+- Embedding Models Overview
 
 Happy learning!

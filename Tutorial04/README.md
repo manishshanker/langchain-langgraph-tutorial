@@ -20,24 +20,92 @@ Welcome to the fourth tutorial in our LangChain and LangGraph series! In this tu
 
 ## Getting Started
 
-1. Navigate to the tutorial directory:
-   ```
-   cd langchain-langgraph-tutorial/Tutorial04
-   ```
-2. Open the Jupyter Notebook:
-   ```
-   jupyter notebook Tutorial_4_Agents_in_LangChain.ipynb
-   ```
+### 1. Ensure Virtual Environment is Activated
 
-3. Follow along with the notebook to learn about Agents in LangChain!
+#### For Linux/macOS:
+```bash
+cd langchain-langgraph-tutorial
+source venv/bin/activate
+cd Tutorial04
+```
+
+#### For Windows:
+```cmd
+cd langchain-langgraph-tutorial
+.\venv\Scripts\activate
+cd Tutorial04
+```
+
+### 2. Launch Jupyter Notebook
+```bash
+jupyter notebook Tutorial_4_Agents_in_LangChain.ipynb
+```
 
 ## What's Included
 
-- `Tutorial_4_Agents_in_LangChain.ipynb`: Jupyter Notebook containing the tutorial content and code examples
-- `README.md`: This file, providing an overview of the tutorial
+### Core Components
+- `Tutorial_4_Agents_in_LangChain.ipynb`: Main tutorial notebook
+- `tools/`: Custom tool implementations
+- `examples/`: Sample agent configurations
+- `README.md`: Documentation file
+
+### Key Topics
+
+#### Agent Types
+- Zero-shot React Agent
+  - Dynamic tool selection
+  - Reasoning process
+  - Output formatting
+- Conversational Agent
+  - Memory management
+  - Context handling
+  - Response generation
+- Plan-and-Execute Agent
+  - Task decomposition
+  - Step sequencing
+  - Progress monitoring
+
+#### Custom Tools
+- Tool creation framework
+- Input/output schemas
+- Error handling
+- Rate limiting
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Agent Execution Problems**
+   - Tool availability checks
+   - Input validation
+   - Memory constraints
+   - Response parsing
+
+2. **Performance Optimization**
+   - Tool selection efficiency
+   - Memory management
+   - Response caching
+   - Error recovery
 
 ## Next Steps
 
-After completing this tutorial, you'll have a solid understanding of how to work with Agents in LangChain. In the next tutorial, we'll explore advanced Agent techniques and more complex workflows.
+After completing this tutorial:
+1. Build custom agent architectures
+2. Develop specialized tools
+3. Implement complex workflows
+4. Prepare for Tutorial 5: Advanced Agent Techniques
+
+Stay tuned for Tutorial 5 where we'll explore:
+- Multi-agent systems
+- Agent orchestration
+- Complex decision trees
+- Advanced tool integration
+
+## Additional Resources
+
+- LangChain Agents Documentation
+- Tool Development Guide
+- Agent Architecture Patterns
+- Performance Optimization Tips
 
 Happy learning!
