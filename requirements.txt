@@ -17,5 +17,4 @@ asyncio
 langchain_experimental
 pandas
 matplotlib
-tensorflow
 graphviz
